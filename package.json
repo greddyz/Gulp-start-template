@@ -1,0 +1,46 @@
+{
+  "name": "gulp-start-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "gulp",
+    "template",
+    "boilerplate",
+    "sass",
+    "pug"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "greddyz",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp.spritesmith": "^6.2.1",
+    "imagemin-pngquant": "^5.0.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^8.0.0"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "ie >= 10"
+  ]
+}
