@@ -3,8 +3,11 @@ var App = App || {};
 
 // a convenience function for parsing string namespaces and
 // automatically generating nested namespaces
-function extend( ns, nsString ) {
-    var parts = nsString.split('.'),
+App.extend = function (nsString, ns) {
+    ns = ns||App;
+
+    var
+        parts = nsString.split('.'),
         parent = ns,
         pl, i;
 
@@ -23,7 +26,21 @@ function extend( ns, nsString ) {
     }
 
     return parent;
-}
+};
+
+
+/* === APP CONFIG === */
+//= ../script/config/config.js
+
+
+/* === EVENTS === */
+//= ../script/events/events.js
+
 
 /* === COMPONENTS === */
 //= ../script/components/TestModule.js
+
+
+/* === INITIALIZATION === */
+App.Events.init();
+App.TestModule.init();
